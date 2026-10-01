@@ -1,16 +1,29 @@
-# my_app
+# Jobs & Market — Mobile App (Jobs Module)
 
-A new Flutter project.
+A cross-platform mobile application built with Flutter, developed as a senior project. This repository contains the Jobs module, which aggregates real-time job listings from multiple external APIs with a LinkedIn-style search and filtering experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Integrated 3 external job APIs (Remotive, Jobicy, JSearch) for real-time listings across Lebanon, Saudi Arabia, Qatar, and worldwide
+- LinkedIn-style instant search with live filtering across 5 fields simultaneously
+- Multi-layer filter system (country + category, combinable)
+- Payment-based access control system
+- Admin panel for approving job posts and managing user access
+- Real-time backend powered by Firebase Firestore
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter, Dart
+- **Backend:** Firebase Firestore
+- **APIs:** Remotive, Jobicy, JSearch (RapidAPI)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Note
+
+API keys have been removed from this public repository for security. To run locally, add your own API key(s) in the designated location in the code.
+
+## Installation
+
+```bash
+flutter pub get
+flutter run
+```

@@ -46,4 +46,4 @@ app.*.map.json
 # Sensitive/config files
 .env
 /android/app/google-services.json
-/ios/Runner/GoogleService-Info.plist
+/ios/Runner/GoogleService-Info.plistlib/firebase_options.dart
